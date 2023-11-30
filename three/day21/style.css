@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    height: 100%;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),rgba(0,0,0,0.6)
+    ), url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header h1{
+    width: 170px;
+    float: right;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+}
